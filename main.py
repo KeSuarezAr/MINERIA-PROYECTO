@@ -4,8 +4,6 @@ from src.save_model import save_model
 from src.clean import clean_df
 from src.read import read_df
 
-print("hi")
-
 df = read_df()
 df = clean_df(df)
 
